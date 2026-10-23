@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="My IT Student Portfolio">
+<title>My IT Student Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<a href="#home" class="logo">MY PORTFOLIO.</a>
+
+<button class="menu-toggle" id="menu-toggle"
+aria-label="Open navigation"
+aria-expanded="false"
+aria-controls="main-nav">☰</button>
+
+<nav id="main-nav" aria-label="Main navigation">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#contacts">Contacts</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+
+<!-- HOME -->
+
+<section id="home">
+<article>
+<p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+<h1>Hello, I'm an <span class="highlight">IT Student</span></h1>
+
+<p class="description">
+Welcome to my personal portfolio! I am an Information
+Technology student who enjoys learning programming,
+web development, and new technologies. I want to create
+useful digital solutions and improve my skills.
+</p>
+
+<ul class="badges" aria-label="My skills">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>C++</li>
+</ul>
+
+<a href="#projects" class="button">View My Projects</a>
+<a href="#contacts" class="button secondary-button">Contact Me</a>
+</article>
+
+<figure class="profile-picture">
+<img src="Image/MyPhoto.PNG" alt="">
+<figcaption>
+Angeline Santos
+<small>BS Information Technology Student</small>
+</figcaption>
+</figure>
+</section>
+
+<!-- ABOUT ME -->
+
+<section id="about" class="content-card">
+<p class="eyebrow">GET TO KNOW ME</p>
+<h2>About <span>Me</span></h2>
+
+<section class="about-layout">
+
+<figure class="about-photo">
+<img src="Image/Mirror.png" alt="My portrait">
+<figcaption>MY PROFILE</figcaption>
+</figure>
+
+<section class="about-information">
+
+<article>
+<h3>Who Am I?</h3>
+<p>
+I am an IT student who enjoys learning about
+computers, programming, and website development.
+I want to improve my skills and create useful
+digital solutions.
+</p>
+</article>
+
+<article>
+<h3>My Approach</h3>
+<p>
+I believe in continuous learning, creative designs,
+organized code, and user-friendly websites.
+Every project is an opportunity to learn something new.
+</p>
+</article>
+
+<section class="personal-details">
+<h3>Personal Details</h3>
+
+<dl class="details-list">
+<section>
+<dt>NAME</dt>
+<dd>Angeline Garcia Santos</dd>
+</section>
+
+<section>
+<dt>COURSE</dt>
+<dd>BSIT</dd>
+</section>
+
+<section>
+<dt>SCHOOL</dt>
+<dd>Northeastern College</dd>
+</section>
+
+<section>
+<dt>CAREER GOAL</dt>
+<dd>Web Developer</dd>
+</section>
+</dl>
+</section>
+
+</section>
+</section>
+</section>
+
+<!-- EXPERIENCE -->
+
+<section id="experience">
+<p class="eyebrow">MY LEARNING JOURNEY</p>
+<h2>My <span>Experience</span></h2>
+
+<p class="description">
+The skills and knowledge I am developing as an
+Information Technology student.
+</p>
+
+<section class="card-grid">
+<article class="project-card">
+<p class="project-icon" aria-hidden="true">💻</p>
+<h3>Web Development</h3>
+<p>
+Learning to create websites using HTML, CSS,
+and JavaScript, including responsive designs.
+</p>
+</article>
+
+<article class="project-card">
+<p class="project-icon" aria-hidden="true">⚙️</p>
+<h3>Programming</h3>
+<p>
+Practicing C++ programming, problem-solving,
+and basic program development.
+</p>
+</article>
+</section>
+</section>
+
+<!-- FEATURED PROJECTS -->
+
+<section id="projects">
+<p class="eyebrow">MY WORK AND SYSTEMS</p>
+<h2>Featured <span>Projects</span></h2>
+
+<p class="description">
+Explore my programming projects, school systems,
+and website development work.
+</p>
+
+<section class="card-grid">
+
+<article class="project-card">
+<p class="project-icon" aria-hidden="true">📊</p>
+<h3>Student Grade Calculator</h3>
+<p>
+A C++ program that records student names and IDs,
+calculates grade averages, updates records,
+sorts student information, and identifies
+Dean's Listers.
+</p>
+
+<button class="view-button project-view" type="button"
+data-title="Student Grade Calculator"
+data-description="This C++ project manages student grade records. Its features include adding student information, viewing records, updating grades, calculating averages, sorting student records, and identifying Dean's Listers.">
+View Project Details
+</button>
+</article>
+
+<article class="project-card">
+<p class="project-icon" aria-hidden="true">💳</p>
+<h3>Easy Tuition: Online Payment System</h3>
+<p>
+A proposed school payment system designed to reduce
+long lines, organize transactions, and make tuition
+payment more convenient for students.
+</p>
+
+<button class="view-button project-view" type="button"
+data-title="Easy Tuition: Online Payment System"
+data-description="Easy Tuition is a proposed online payment and appointment system for school fees. Its goal is to reduce long queues during enrollment and payment periods. Students can arrange appointments, while the school can organize transactions and manage student flow. The proposal also considers additional cashier and registrar counters and a better waiting area.">
+View Project Details
+</button>
+</article>
+
+<article class="project-card">
+<p class="project-icon" aria-hidden="true">🌸</p>
+<h3>IT Student Portfolio</h3>
+<p>
+A responsive personal website built with semantic
+HTML, CSS, and JavaScript to showcase my profile,
+projects, certificates, and achievements.
+</p>
+
+<button class="view-button project-view" type="button"
+data-title="IT Student Portfolio"
+data-description="This portfolio website presents my background, learning experience, programming projects, certificates, and school achievements. It uses semantic HTML, responsive CSS, and JavaScript interactions to create a user-friendly experience on mobile phones and computers.">
+View Project Details
+</button>
+</article>
+
+</section>
+</section>
+
+<!-- THREE CERTIFICATES -->
+
+<section id="certificates">
+<p class="eyebrow">MY LEARNING MILESTONES</p>
+<h2>My <span>Certificates</span></h2>
+
+<p class="description">
+Upload your certificate picture and write its description.
+Click View Certificate to see the full picture.
+</p>
+
+<section class="card-grid">
+
+<article class="gallery-card">
+<h3>Certificate 1</h3>
+
+<label for="cert-file-1">Infographic Second Runner Up</label>
+
+<img src="Image/infog.jpg" class="gallery-preview" id="cert-preview-1" alt="Certificate 1 preview">
+
+
+</article>
+
+<article class="gallery-card">
+<h3>Certificate 2</h3>
+
+<label for="cert-file-2">Consistent Honor Student</label>
+
+
+<img class="Image/cert1.jpg" id="cert-preview-2"
+alt="Certificate 2 preview" hidden>
+
+<img src="Image/cert1.jpg" class="gallery-preview" id="cert-preview-1" alt="Certificate 1 preview">
+
+</article>
+
+<article class="gallery-card">
+<h3>Certificate 3</h3>
+<label for="cert-file-2">Champion placer at fashion show</label>
+<img src="Image/cert2.jpg" class="gallery-preview" id="cert-preview-1" alt="Certificate 1 preview">
+
+</article>
+
+</section>
+</section>
+
+<!-- FIVE ACHIEVEMENTS -->
+
+<section id="achievements">
+<p class="eyebrow">MY SCHOOL ACCOMPLISHMENTS</p>
+<h2>My <span>Achievements</span></h2>
+
+<p class="description">
+Upload a photo for each achievement and write its description.
+Click View Achievement to see the full details.
+</p>
+
+<section class="card-grid">
+
+<article class="gallery-card">
+<h3>Achievement 1</h3>
+
+<label for="ach-file-1">BIGHANI DANCE TROUPE
+</label>
+
+<img class="gallery-preview" id="ach-preview-1"
+alt="Achievement 1 preview" hidden>
+
+<img src="Image/dance.jpg" class="gallery-preview" id="cert-preview-1" alt="Certificate 1 preview">
+
+</article>
+
+<article class="gallery-card">
+<h3>Achievement 2</h3>
+<label for="ach-file-2">BANNER MAKING</label>
+
+<img class="gallery-preview" id="ach-preview-2"
+alt="Achievement 2 preview" hidden>
+
+<img src="Image/banner.jpg" class="gallery-preview" id="cert-preview-1" alt="Certificate 1 preview">
+
+</article>
+
+<article class="gallery-card">
+<h3>Achievement 3</h3>
+<label for="ach-file-3">Honor Student</label>
+
+<img class="gallery-preview" id="ach-preview-3"
+alt="Achievement 3 preview" hidden>
+<img src="Image/honor.jpg" class="gallery-preview" id="cert-preview-1" alt="Certificate 1 preview">
+
+</article>
+
+<article class="gallery-card">
+<h3>Achievement 4</h3>
+<label for="ach-file-4">Best in Research</label>
+
+<img class="gallery-preview" id="ach-preview-4"
+alt="Achievement 4 preview" hidden>
+
+<img src="Image/research.jpg" class="gallery-preview" id="cert-preview-1" alt="Certificate 1 preview">
+
+</article>
+
+<article class="gallery-card">
+<h3>Achievement 5</h3>
+<label for="ach-file-5">Got 8th place at Quiz Bee Among 23 students</label>
+
+<img class="gallery-preview" id="ach-preview-5"
+alt="Achievement 5 preview" hidden>
+
+<img src="Image/last.jpg" class="gallery-preview" id="cert-preview-1" alt="Certificate 1 preview">
+
+</article>
+
+</section>
+</section>
+
+<!-- CONTACT -->
+
+<section id="contacts">
+<p class="eyebrow">LET'S CONNECT</p>
+<h2>Contact <span>Me</span></h2>
+
+<p class="description">
+Have a question or want to connect? Send me a message.
+</p>
+
+<section class="contact-card">
+<h3>Send an Email Directly</h3>
+
+<form id="contact-form" class="contact-form">
+<p>
+<label for="contact-name">NAME</label>
+<input type="text" id="contact-name"
+placeholder="Your name" required>
+</p>
+
+<p>
+<label for="contact-email">EMAIL</label>
+<input type="email" id="contact-email"
+placeholder="you@example.com" required>
+</p>
+
+<p>
+<label for="contact-message">MESSAGE</label>
+<textarea id="contact-message"
+placeholder="Write your message here..."
+required></textarea>
+</p>
+
+<button type="submit">SEND MESSAGE</button>
+</form>
+
+<p id="form-status" role="status" aria-live="polite"></p>
+</section>
+</section>
+
+</main>
+
+<footer>
+<p>© <span id="year"></span> My IT Student Portfolio.</p>
+<p>Designed with HTML, CSS, and JavaScript.</p>
+</footer>
+
+<!-- INTERACTIVE POPUP -->
+
+<dialog id="detail-popup" aria-labelledby="popup-title">
+<section class="popup-content">
+<header class="popup-header">
+<h2 id="popup-title">Portfolio Details</h2>
+<button type="button" class="close-popup"
+id="close-popup" aria-label="Close popup">×</button>
+</header>
+
+<img class="popup-image" id="popup-image" alt="" hidden>
+<p id="popup-description"></p>
+</section>
+</dialog>
+
+<script src="script.js"></script>
+
+</body>
+</html>
